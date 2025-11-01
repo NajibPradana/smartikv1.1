@@ -39,3 +39,31 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Firebase
+firebase/serviceAccountKey.json
+
+# Environment
+backend/.env
+frontend/.env.local
+
+# Virtual Environment
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+backend/app/services/__pycache__/
+
+# Node Modules
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
